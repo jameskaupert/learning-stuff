@@ -28,3 +28,11 @@ See [https://aws.amazon.com/about-aws/global-infrastructure/](https://aws.amazon
 1. cost of AWS services within the region
 1. availability of services within the region
 1. distance and latency to end users
+
+## Availability Zones
+
+- a physical location made up of one or more datacenters
+- secured buildings with many computers
+- generally 3x AZs per region
+- datacenters within a region will be isolated from one another (different buildings), but close enough to provide low latency (<10ms)
+- common practice to run workloads in at least 3 AZs for High Availability if one or two datacenters fail
