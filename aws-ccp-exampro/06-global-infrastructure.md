@@ -34,5 +34,9 @@ See [https://aws.amazon.com/about-aws/global-infrastructure/](https://aws.amazon
 - a physical location made up of one or more datacenters
 - secured buildings with many computers
 - generally 3x AZs per region
-- datacenters within a region will be isolated from one another (different buildings), but close enough to provide low latency (<10ms)
+- datacenters within a region will be isolated from one another (different buildings), but close enough to provide low latency (<10ms) - within 60mi/100km of each other
 - common practice to run workloads in at least 3 AZs for High Availability if one or two datacenters fail
+
+Subnets are associated with AZs
+
+- you never choose an AZ when launching resources - subnets are chosen instead
