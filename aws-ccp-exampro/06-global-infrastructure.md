@@ -40,3 +40,11 @@ See [https://aws.amazon.com/about-aws/global-infrastructure/](https://aws.amazon
 Subnets are associated with AZs
 
 - you never choose an AZ when launching resources - subnets are chosen instead
+
+## Fault Tolerance
+
+Fault Domain = section of a network vulnerable to damage if a critical device or system fails. The purpose of a fault domain is that if a failure occurs, it will not cascade outside that domain, limiting possible damage
+
+Fault level = collection of fault domains. Can be scoped however (servers in a rack, rack in a datacenter, room in a datacenter, entire datacenter...)
+
+AWS abstracts fault level so you don't have to worry about it. Azure does not (you get to pick)
