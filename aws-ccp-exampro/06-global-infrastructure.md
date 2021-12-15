@@ -47,4 +47,4 @@ Fault Domain = section of a network vulnerable to damage if a critical device or
 
 Fault level = collection of fault domains. Can be scoped however (servers in a rack, rack in a datacenter, room in a datacenter, entire datacenter...)
 
-AWS abstracts fault level so you don't have to worry about it. Azure does not (you get to pick)
+AWS abstracts fault level so you don't have to worry about it (an AWS region would be a fault level). Azure does not (you get to pick)
