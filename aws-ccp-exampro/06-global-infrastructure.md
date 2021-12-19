@@ -50,3 +50,12 @@ Fault Domain = section of a network vulnerable to damage if a critical device or
 Fault level = collection of fault domains. Can be scoped however (servers in a rack, rack in a datacenter, room in a datacenter, entire datacenter...)
 
 AWS abstracts fault level so you don't have to worry about it (an AWS region would be a Fault Level, an AWS AZ would be a Fault Domain). Azure does not (you get to pick)
+
+Each region is designed to be completed isolated from other regions for fault tolerance and stability
+
+Each AZ is isolated, but connected to other AZs within the region with low-latency links
+Each AZ is an independent failure zone.
+
+- They are physically separated within a metro region and located in lower risk flood plains
+- They have discrete, uninterruptible power supplies and onsite backup generation
+- They are designed to be supplied by different substations to reduce the risk of a power grid event impacting more than a single AZ
