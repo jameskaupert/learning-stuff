@@ -59,6 +59,6 @@ Each AZ is an independent failure zone.
 - They are physically separated within a metro region and located in lower risk flood plains
 - They have discrete, uninterruptible power supplies and onsite backup generation
 - They are designed to be supplied by different substations to reduce the risk of a power grid event impacting more than a single AZ
-- AZs connected redundantly to various tier-1 tansit providers.
+- AZs connected redundantly to various tier-1 transit providers.
 
 Applications using multi-AZ are better isolated/protected from issues such as power outages, lightning strikes, tornados, earthquakes, and more
