@@ -62,3 +62,25 @@ Each AZ is an independent failure zone.
 - AZs connected redundantly to various tier-1 transit providers.
 
 Applications using multi-AZ are better isolated/protected from issues such as power outages, lightning strikes, tornados, earthquakes, and more
+
+## AWS Global Network
+
+- represents interconnections between AWS Global Infrastructure - often called the "backbone of AWS"
+- private expressway capable of moving things very fast between datacenters
+
+Edge Locations can act as "on and off ramps" to the AWS Global Network
+
+- ie: on ramps like AWS Global Accelerator & AWS S3 Transfer Accelerator
+- ie: offramps like CloudFront, to provide Edge storage and compute near the end user
+
+VPC Endpoints ensure resources stay within AWS Network and do not traverse the public internet
+
+### Points of Presence (PoP)
+
+- Intermediate location between an AWS region and the end user. This could be a datacenter or collection of hardware
+  - owned by AWS or a trusted partner, utilized by AWS services for content delivery or expedited upload
+  - ie: edge locations / regional edge caches
+
+Edge Locations - datacenters holding cached copies of the most popular files so delivery time due to distance to end users is reduced
+
+Regional Edge Locations - hold much larger caches of less-popular files to reduce full round trip and reduce cost of transfer fees
