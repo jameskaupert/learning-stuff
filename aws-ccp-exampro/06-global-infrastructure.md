@@ -75,12 +75,52 @@ Edge Locations can act as "on and off ramps" to the AWS Global Network
 
 VPC Endpoints ensure resources stay within AWS Network and do not traverse the public internet
 
-### Points of Presence (PoP)
+## Points of Presence (PoP)
 
 - Intermediate location between an AWS region and the end user. This could be a datacenter or collection of hardware
-  - owned by AWS or a trusted partner, utilized by AWS services for content delivery or expedited upload
+  - owned by AWS or a trusted partner, utilized by AWS services for content delivery or expediated upload
   - ie: edge locations / regional edge caches
+  - live at the edge or intersection of two networks
 
 Edge Locations - datacenters holding cached copies of the most popular files so delivery time due to distance to end users is reduced
 
 Regional Edge Locations - hold much larger caches of less-popular files to reduce full round trip and reduce cost of transfer fees
+
+Tier 1 Network = network that can reach every other network on the internet without purchasing IP transit or paying for peering
+
+- AWS AZs are redundantly connected to multiple Tier-1 transit providers
+
+Some AWS Services using PoPs for content delivery or expediated upload:
+
+- Amazon CloudFront - Content Delivery Network (CDN) service that
+  - you point website to CloudFront so it routes requests to nearest Edge Location cache
+  - allows you to choose an _origin_ such as web-server or storage that is the source of the cache
+  - caches the contents of what the origin would return to various Edge locations around the world
+- Amazon S3 Transfer Acceleration - allows you to generate special URL that can be used by end users to upload files to nearby Edge Location. From there, it can move much faster within the AWS Network to reach S3
+- AWS Global Accelerator - finds optimal path from end user to your web servers. Deployed within Edge Locations so you send user traffic to an Edge Location instead of directly to web app
+
+## AWS Direct Connect
+
+AWS Direct Connect = private/dedicated connection between your datacenter/office/co-location and AWS. Near zero latency
+
+- two very fast network connection options
+
+1. Lower Bandwidth: 50MBps-500MBps
+2. Higher Bandwidth: 1GBps or 10GBps
+
+- helps reduce network costs and increase bandwidth throughput
+- provides more consistent network experience than typical internet connection (reliability/security)
+
+Direct Connect Locations = trusted partner datacenters to help establish dedicated high speed / low-latency connection from your on-prem to AWS
+
+## AWS Local Zones
+
+- datacenters located very close to high population areas, designed to provide single-digit millisecond latency for that area
+  - first local zone is in Los Angeles, CA, and is a logical extension to the US-West region
+  - only specific services are available
+  - must opt-in to Local Zones via support ticket
+  - used for highly demanding applications sensitive to latency
+    - media/entertainment
+    - electronic design automation
+    - ad-tech
+    - machine learning
