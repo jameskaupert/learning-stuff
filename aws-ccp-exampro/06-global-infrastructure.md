@@ -124,3 +124,95 @@ Direct Connect Locations = trusted partner datacenters to help establish dedicat
     - electronic design automation
     - ad-tech
     - machine learning
+
+## Wavelength Zones
+
+- allow for edge-computing on 5G telecom networks
+- Ultra-low latency
+- AWS partners with telecom companies to utilize their 5G networks
+- you create a subnet tied to the Wavelength Zone and can launch VMs (on EC2s) to the edge of the targeted network
+
+## Data Residency
+
+Data Residency = the physical or geographic location where an organization or cloud resources reside
+
+Compliance Boundaries = regulatory compliance (legal requirements) by government or organization describing where data/cloud resources are **allowed** to reside
+
+Data Sovereignty = jurisdictional control or legal authority that can be asserted over data because its physical location is within jurisdictional boundaries
+
+When you need to meet compliance boundaries that strictly define the data residency of data/cloud resources in AWS, you can use:
+
+1. AWS Outposts = physical rack of servers you can put in your data center. Data resides wherever the outpost resides
+2. AWS Config = Policy-as-Code service that allows creation of rules to continuously check AWS resource configuration. If deviations are identified, you can be alerted or in some cases have auto-remediation
+3. IAM Policies can be written to explicitly deny access to specific AWS regions. A **Service Control Policy** (SCP) sets up permissions that are applied organization wide
+
+## AWS For Government
+
+- Public Sector = public goods and governmental services such as
+  - military
+  - law enforcement
+  - infrastructure
+  - public transit
+  - public education
+  - health care
+  - the government itself
+
+AWS can be utilized by public sector or organizations developing on behalf of the public sector
+
+AWS achieves this by meeting regulatory compliance programs and specific governance and security controls
+
+AWS has special regions for US regulation called GovCloud
+
+### GovCloud
+
+FedRAMP = Federal Risk and Authorization Management Program - US government-wide program providing standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services
+
+GovCloud = an isolated region to run FedRAMP workloads
+
+- allow customers to host sensitive Controlled Unclassified info and other types of regulated workloads
+- only operated by employees who are US citizens, on US soil
+- only accessible to US entities and root account holders passing a screening process
+
+Customers on GovCloud can architect secure cloud solutions complying with:
+
+- FedRAMP
+- DOJ Criminal Justice Information Systems (CJIS)
+- US International Traffic in Arms Regulations (ITAR)
+- Export Administration Regulations (EAR)
+- Department of Defense (DoD) Cloud Computing Security Requirements guide
+
+### AWS In China
+
+AWS China is completed isolated (intentionally) from AWS Global to meet regulatory compliance for Mainland China. AWS China is on its own domain at amazonaws.cn
+
+In order to operate in AWS China Regions, you need a Chinese Business License (ICP license)
+
+Not all services are available in China (ie: Route53)
+
+Running in Mainland China (instead of Singapore) means you do not need to traverse The Great Firewall
+
+## Sustainability
+
+- Amazon co-founded the Climate Pledge to achieve Net-Zero Carbon Emissions by 2040 across all of Amazon's businesses, including AWS
+  https://sustainability.aboutamazon.com
+
+3 Main Parts to AWS Cloud Sustainability Goals:
+
+1. Renewable Energy - working to 100% renewable energy powering global infrastructure by 2025
+
+- purchases and retires environment attributes to cover non-renewable energy uses (Renewable Energy Credits - RECs & Guarantees of Origin - GOs)
+
+2. Cloud Efficiency - 3.6 times more efficient than median of other U.S. enterprise data centers surveyed
+3. Water Stewardship - use direct evaporative technology to cool datacenters, recycled non-potable water for cooling, on-site water treatment to remove scale-forming minerals for more water reuse cycles, and water metrics to monitor efficiency
+
+## AWS Ground Station
+
+AWS Ground Station = fully managed service providing satellite communications, and associated data processing and operations scaling without having to build and manage dedicated ground station infrastructure
+
+- download satellite data to an associated EC2 and dump to S3
+
+## AWS Outposts
+
+AWS Outposts = fully managed service offering AWS infrastructure, services, APIs, and tools to any datacenter/co-location space/on-premise facility for hybrid cloud
+
+- rack of servers running AWS infrastructure at your physical location
