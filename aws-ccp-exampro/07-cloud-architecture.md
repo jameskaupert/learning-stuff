@@ -68,16 +68,22 @@ Backup & Restore = back your data and restore it to new infrastructure (RPO/RTO 
 - restore data after event
 - deploy resources after event
 - cost = $
-  Pilot Light = Data is replicated to another region with the minimal service running (RPO/RTO = 10 minutes)
+
+Pilot Light = Data is replicated to another region with the minimal service running (RPO/RTO = 10 minutes)
+
 - small RTO/RPO
 - core services
 - start & scale resources after event
 - cost = $$
-  Warm Standby = Scaled down copy of your infrastructure is running, ready to scale up (RPO/RTO = minutes)
+
+Warm Standby = Scaled down copy of your infrastructure is running, ready to scale up (RPO/RTO = minutes)
+
 - business critical services
 - scale resources after event
 - cost = $$$
-  Multi-Site Active/Active = Scaled up copy of infrastructure is running in another region (RPO/RTO = realtime)
+
+Multi-Site Active/Active = Scaled up copy of infrastructure is running in another region (RPO/RTO = realtime)
+
 - zero downtime
 - near zero loss
 - mission critical services
