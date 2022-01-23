@@ -88,3 +88,86 @@ Popular shell programs:
 AWS CLI allows users to programmatically interact with the AWS API via entering single or multi-line commands into a shell/terminal
 
 Can use the AWS CLI via the CloudShell (only in some regions). Credentials are already set up for the account you are in
+
+## AWS SDK
+
+Software Development Kit (SDK) = collection of software development tools in one installable package
+
+You can use the AWS SDK to programmatically create, modify, delete, or interact with AWS resources
+
+- AWS SDK is offered in many programming languages
+
+## AWS CloudShell
+
+- browser-based shell built into the AWS console. Scoped per-region, with the same credentials as the logged-in user, and is free
+- includes some pre-installed Linux tools, the AWS CLI, Python, Node, etc...
+
+## Infrastructure as Code (IaC)
+
+You write a configuration script to automate creating, updating, or destroying cloud infrastructure
+
+- IaC is a blueprint of your infrastructure
+- IaC allows you to easily share, version, and inventory your cloud infrastructure
+
+Two versions of writing IaC in AWS:
+
+1. Cloudformation (CFN) - declarative
+2. Cloud Development Kit (CDK) - imperative
+
+Declarative
+
+- what you see is what you get (Explicit)
+- more verbose, but zero chance of misconfiguration
+- uses scripting languages (JSON, YAML, XML)
+
+Imperative
+
+- you say what you want and the rest is filled in (Implicit)
+- less verbose, but you could end up with misconfiguration
+- does more than Declarative can
+- uses programming languages (Python, TypeScript, etc...)
+
+### CloudFormation
+
+- can write IaC as either JSON or YAML (more typically)
+- CloudFormation is simple, but can lead to large files and can be limited in some regard when creating dynamic or repeatable infrastructure
+- CloudFormation can be easier for DevOps engineers who do not have a background in web programming languages
+- Since the CDK generates CloudFormation, it is still important to understand CloudFormation for debugging
+
+### CDK
+
+- can write IaC using various programming languages
+- powered by CloudFormation (generates Cloudformation templates)
+- has large library of reusable cloud components at https://constructs.dev
+- comes with its own CLI
+- CDK Pipelines allows quick setup of CI/CD pipelines for CDK projects
+- CDK has a testing framework for Unit/Integration testing
+- CDK and SDK look similar, but the CDK creates idempotent infrastructure instead of continually creating new things every time code is rerun
+
+## AWS Toolkit for VSCode
+
+- open-source plugin for VSCode to create, debug, and deploy AWS resources
+
+Includes:
+
+1. AWS Explorer - explore a wide range of AWS resources linked to your AWS account
+2. AWS CDK Explorer - explore stacks defined by CDK
+3. AWS Elastic Container Service - provides intellisense for ECS task definition files
+4. Serverless Applications - create, debug, and deploy serverless applications via SAM and CFN
+
+## Access Keys
+
+Access Key = key and secret (credentials) required to have programmatic access to AWS resources via the AWS API outside of the console
+
+- A user must be granted access to use access keys
+- never share access keys
+- never commit access keys to a codebase
+- can have 2 active access keys
+- can deactivate access keys
+- access keys have whatever access a user would have
+
+## AWS Documentation
+
+Large collection of technical documentation on how to use AWS services
+
+https://docs.aws.amazon.com
