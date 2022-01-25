@@ -60,3 +60,21 @@ When underlying servers are managed by AWS. You don't worry about or configure s
   - run code without provisioning/managing servers
   - upload small pieces of code, choose memory and how long function is allowed to run before timing out
   - charged based on the runtime of the serverless function rounded to the nearest 100ms
+
+### Higher Performance Computing Services
+
+The Nitro System = combination of dedicated hardware/lightweight hypervisor that enable faster innovation/enhanced security. All new EC2 instance types use Nitro system
+
+- Nitro cards = specialized cards for VPC, EBS, and Instance storage and controller card
+- Nitro security chips = integrated into motherboard, protecting hardware resources
+- Nitro hypervisor = lightweight hypervisor memory and CPU allocation - bare metal-like performance
+
+Baremetal Instance = instances you can launch with no hypervisor so you can run workloads directly on the hardware for maximum performance and control. M5 and R5 instances are bare metal
+
+Bottlerocket = Linux-based open-source OS that is purpose-built by AWS for running containers on VMs or bare metal hosts
+
+High Performance Computing (HPC) = a cluster of hundreds of thousands of servers with fast connections between them, each with the purpose of boosting computing capacity
+
+- ie: a supercomputer to perform computation problems too large to run on standard computers or that would take too long
+
+AWS ParallelCluster = AWS-supported open-source cluster management tool. Makes it easy to deploy and manage HPC clusters on AWS
