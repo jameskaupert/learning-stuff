@@ -79,7 +79,7 @@ High Performance Computing (HPC) = a cluster of hundreds of thousands of servers
 
 AWS ParallelCluster = AWS-supported open-source cluster management tool. Makes it easy to deploy and manage HPC clusters on AWS
 
-# Edge & Hybrid Computing Services
+## Edge & Hybrid Computing Services
 
 Edge Computing - push computing workloads outside of your networks to run close to the destination location, ie: pushing computing to run on phones, IoT devices, or external servers not within your cloud network
 
@@ -92,3 +92,20 @@ AWS Wavelength = build and launch apps in telecom datacenter. Applications have 
 VMWare Cloud on AWS = manage on-premise virtual machines using VMWare as EC2 instances. Datacenter must be using VMWare for virtualization
 
 AWS Local Zones = edge datacenters located outside of an AWS region so you can use AWS closer to the end destination
+
+## Cost & Capacity Management Computing Services
+
+Cost management = how do we save money?
+Capacity management = how do we meet the demand of traffic and usages through adding or upgrading servers?
+
+EC2 Spot Instances, Reserved Instances and Savings Plans = ways to save on computing by paying up front in full or partially, by committing to yearly contracts, or by being flexible about availability and interruption to computing service
+
+AWS Batch = plans, schedules, and executes batch computing workloads, and can utilize Spot Instances to save money
+
+AWS Compute Optimizer = suggests how to reduce costs and improve performance by leveraging machine learning to review and analyze your previous usage history
+
+EC2 Autoscaling Groups (ASGs) = automatically add/remove EC2s to meet current demand of traffic. Saves money and meets capacity by only running the amount of servers you need
+
+Elastic Load Balancer (ELB) = distribute traffic to multiple instances, or re-route traffic from unhealthy instances to healthy ones. Can route to EC2s in different AZs
+
+AWS Elastic Beanstalk (EB) = easily deploy web apps without setting up and managing underlying AWS services (like Heroku)
