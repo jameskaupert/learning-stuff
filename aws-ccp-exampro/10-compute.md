@@ -78,3 +78,17 @@ High Performance Computing (HPC) = a cluster of hundreds of thousands of servers
 - ie: a supercomputer to perform computation problems too large to run on standard computers or that would take too long
 
 AWS ParallelCluster = AWS-supported open-source cluster management tool. Makes it easy to deploy and manage HPC clusters on AWS
+
+# Edge & Hybrid Computing Services
+
+Edge Computing - push computing workloads outside of your networks to run close to the destination location, ie: pushing computing to run on phones, IoT devices, or external servers not within your cloud network
+
+Hybrid Computing - run workloads both on your on-premise datacenter and AWS Virtual Private Cloud (VPC)
+
+AWS Outposts = physical rack of servers you can put in your datacenter. Lets you use AWS services right within your datacenter
+
+AWS Wavelength = build and launch apps in telecom datacenter. Applications have ultra-low latency since they are pushed over a 5G network to be as close as possible to the end user
+
+VMWare Cloud on AWS = manage on-premise virtual machines using VMWare as EC2 instances. Datacenter must be using VMWare for virtualization
+
+AWS Local Zones = edge datacenters located outside of an AWS region so you can use AWS closer to the end destination
