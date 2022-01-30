@@ -61,8 +61,23 @@ AWS offers a range of S3 storage classes that trade retrieval time, accessibilit
 
 Snow family -> storage and compute devices used to physically move data in or out of the cloud when moving data over the internet or private connection is too slow, difficult, or costly
 
-Snowcone - two sizes (8TB storage on HHD and 14TB storage on SSD)
+Snowcone - two sizes (8TB storage on HDD and 14TB storage on SSD)
 Snowball Edge - two types (storage optimized with more memory 80TB, and compute optimized 39.5TB)
 Snowmobile - tractor trailer with 100PB of storage, scalable to exabytes with multiple trucks
 
 Data is delivered to S3
+
+# Storage Services Comparison
+
+- S3 = serverless object storage service
+- S3 Glacier = cold storage service (archiving and long-term backup)
+- Elastic Block Store (EBS) = persistent block storage service. Virtual hard drive in the cloud, attached to EC2s. Choose the type of hard drive you want (SSD, IOPS SSD, Throughput HDD, Cold HDD)
+- Elastic File Storage (EFS) = cloud-native NFS file system service. File storage you can mount to multipe EC2s at the same time. For when you need to share files between multiple servers
+- Storage Gateway = hybrid cloud storage extending on-premise storage to the cloud
+  - File Gateway extends local storage to s3
+  - Volume Gateway caches local drives to s3 to have continuous backup of local files in the cloud
+  - Tape Gateway stores files onto virtual tapes for backing up files on very cost effective long term storage
+- AWS Snow Family = storage devices used to physicall migrate large amounts of data to the cloud
+- AWS Backup = fully managed backup service via backup plans
+- CloudEndure Disaster Recovery = continuously replicates machines into a low-cost staging area in target AWS account and preferred region, enabling fast and reliable recovery in case of IT data center failures
+- Amazon FSx = feature rich and highly performant file system. Can be used for Windows (SMB) or Linux (Lustre)
