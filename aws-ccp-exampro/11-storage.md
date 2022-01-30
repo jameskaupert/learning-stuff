@@ -45,3 +45,14 @@ S3 Buckets -> hold objects, can have folders that hold objects
 - S3 is a universal namespace, so bucket names must be globally unique like domain names
 
 Objects can be stored from 0 Bytes to 5 Terabytes in size
+
+### S3 Storage Classes
+
+AWS offers a range of S3 storage classes that trade retrieval time, accessibility and durability for cheaper storage
+
+- S3 Standard (default) = fast, 99.99% availability, 11 9's durability. Replicated across at least 3 AZs
+- S3 intelligent tiering = uses ML to analyze object usage and determine appropriate storage class. Data is moved to the most cost-effective access tier, without any performance impact or added overhead
+- S3 standard-IA (infrequent access) = still fast. Cheaper if you access files less than once per month. Additional retrieval fee applied. 50% less than standard, with reduced availability
+- S3 One-Zone-IA = still fast. Objects only exist in 1 AZ. Availability is 99.5%. Cheaper than standard IA by 20%. Data could get destroyed. Retrieval fee applied
+- S3 Glacier = long term storage. Retrieval of data can take minutes to hours, but is very cheap storage
+- S3 Glacier Deep Archive = lowest cost storage class. Retrieval time is 12 hours
