@@ -56,3 +56,13 @@ AWS offers a range of S3 storage classes that trade retrieval time, accessibilit
 - S3 One-Zone-IA = still fast. Objects only exist in 1 AZ. Availability is 99.5%. Cheaper than standard IA by 20%. Data could get destroyed. Retrieval fee applied
 - S3 Glacier = long term storage. Retrieval of data can take minutes to hours, but is very cheap storage
 - S3 Glacier Deep Archive = lowest cost storage class. Retrieval time is 12 hours
+
+## AWS Snow Family
+
+Snow family -> storage and compute devices used to physically move data in or out of the cloud when moving data over the internet or private connection is too slow, difficult, or costly
+
+Snowcone - two sizes (8TB storage on HHD and 14TB storage on SSD)
+Snowball Edge - two types (storage optimized with more memory 80TB, and compute optimized 39.5TB)
+Snowmobile - tractor trailer with 100PB of storage, scalable to exabytes with multiple trucks
+
+Data is delivered to S3
