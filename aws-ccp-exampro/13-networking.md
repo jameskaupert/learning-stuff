@@ -41,3 +41,9 @@ Subnets needs to have a smaller CIDR range to represent their portion
 
 Public subnet = one that can reach the internet
 Private subnet = one that cannot reach the internet
+
+## Security Groups vs NACLs
+
+Network Access Control Lists (NACLs) = acts as virtual firewall at subnet level. Create Allow and Deny rules. e.g. block a specific IP address known for abuse
+
+Security Groups = act as virtual firewalls at the instance level. Implicitly denies all traffic. You only create Allow rules, e.g. you cannot block a single IP address
