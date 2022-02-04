@@ -35,7 +35,7 @@
 - no up-front payment, no long-term commitment
 - charged by the second (minimum 60s) or the hour
 
-## Reserved (RI)
+## Reserved Instances (RI)
 
 - designed for steady-state, predictable usage, or require reserved capacity
 - reduced pricing based on term x class offering x RI attributes x payment option
@@ -61,3 +61,14 @@ Payment Options = the greater the upfront the greater the savings
 RIs can be shared between multiple accounts within an AWS organization
 
 Unused RIs can be sold in the RI Marketplace
+
+### Reserved Instance Attributes
+
+- limited based on Class Offering and can affect final price of RI
+
+4 RI Attributes
+
+1. Instance Type = instance family and size
+2. Region = region in which RI is purchased
+3. Tenancy = Whether instance runs on shared (default) or single-tenant (dedicated) hardware
+4. Platform = OS
