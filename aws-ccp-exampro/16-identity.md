@@ -37,3 +37,13 @@ Services that can be used to set up intelligent-ish detection of identity concer
 - AWS CloudTrail = track all API calls
 - Amazon GuardDuty = detects suspicious or malicious activity based on CloudTrail and other logs
 - Amazon Detective = used to analyze, investigate and quickly identify security issues (can ingest from GuardDuty)
+
+Azure AD has real-time and calculated risk detection based on more data points than AWS, with more robust security controls, verifications, or logic restriction
+
+Other 3rd party identity solutions
+
+- Azure AD
+- Google BeyondCorp
+- JumpCloud
+
+Connect 3rd party solutions through AWS SSO for more robust functionality
