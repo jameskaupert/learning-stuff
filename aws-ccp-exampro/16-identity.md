@@ -47,3 +47,41 @@ Other 3rd party identity solutions
 - JumpCloud
 
 Connect 3rd party solutions through AWS SSO for more robust functionality
+
+## Directory Service
+
+Directory Service = maps the names of network resources to their network addresses
+
+Directory service is shared information infrastructure for locating, managing, administering, and organizing resources:
+
+- volumes
+- folders
+- files
+- printers
+- users
+- groups
+- devices
+- telephone numbers
+- other objects
+
+A Directory Server (name server) is a server which provides a directory service
+
+Each resource on the network is considered an object by the directory server. Info about resources is stored as collection of attributes for that resource/object
+
+Well-known directory services:
+
+- Domain Name Service (DNS)
+  - the directory service for the internet
+- Microsoft Active Directory
+  - and Azure Active Directory
+- Apache Directory Server
+- Oracle Internet Directory (OID)
+- OpenLDAP
+- Cloud Identity
+- JumpCloud
+
+## Active Directory
+
+Microsoft Active Directory Domain Services was introduced in Windows 2000 to allow organizations to manage multiple on-premise infrastructure components and systems using a single identity per user
+
+A forest of domains and their child domains is broken down into organizational units per child domain, and each organizational unit is broken down into the users and resources for that organizational unit
