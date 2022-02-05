@@ -85,3 +85,58 @@ Well-known directory services:
 Microsoft Active Directory Domain Services was introduced in Windows 2000 to allow organizations to manage multiple on-premise infrastructure components and systems using a single identity per user
 
 A forest of domains and their child domains is broken down into organizational units per child domain, and each organizational unit is broken down into the users and resources for that organizational unit
+
+## Identity Providers (IDPs)
+
+Identity Provider = system entity that creates, maintains, and manages identity info and also provides authentication services to applications within a federation or distributed network
+
+- A trusted provider of your user identity that lets you use authentication to access other services. Could be Facebook, Amazon, Google, Twitter, Github, LinkedIn
+
+Federated Identity = method for linking user's identity across multiple separate identity management systems
+
+OpenID = open standard and decentralized auth protocol, e.g. log into multiple social media platforms with a single Google or Facebook account
+
+- OpenID is about providing who you are
+
+OAuth2.0 = industry-standard protocol for auth. OAuth doesn't share password data but instead uses authorization tokens to prove an identity between consumers and service providers
+
+- OAuth is about granting access to functionality
+
+SAML = Security Assertion Markup Language, an open standard for exchanging authentication and authorization between an identity provider and service provider
+
+- used for SSO via web browser
+
+## Single Sign On
+
+Single Sign-On (SSO) is an authentication scheme allowing users to log in with a single ID and password to different systems and software
+
+- allows IT departments to adminster a single identity that can access many machines and cloud services
+
+Login for SSO is mostly seamless, where once a user is logged into their primary directory, they do not see other login screens
+
+## LDAP
+
+Lightweight Directory Access Protocol (LDAP) = open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an IP network
+
+Common use of LDAP is to provide a central place to store usernames and passwords
+
+LDAP enables same sign-on. Same sign-on allows users to use a single ID and password, but they have to enter it in every time they want to login
+
+Why use LDAP when SSO is more convenient?
+
+- most SSO systems are using LDAP
+- LDAP not designed to work natively with web apps
+- Some systems only support integration with LDAP and not SSO
+
+## Multi-Factor Authentication (MFA)
+
+MFA = security control where after you fill in your username/password, you have to use a second device such as a phone to confirm it is you logging in
+
+- protects against people who have stolen your password
+- an option in most cloud providers and social media websites
+
+## Security Keys
+
+Security Key = secondary device used as a second step in authentication process to gain access to a device, workstation, or app
+
+Can resemble a memory stick. You press a button/exposed metail, and the device generates and autofills a security token
