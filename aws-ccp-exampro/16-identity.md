@@ -154,3 +154,15 @@ IAM Users = end users to log into console or interact with AWS resources program
 IAM Groups = Group up your users so they all share permission levels
 
 IAM Roles = roles grant AWS resources permissions to specific AWS API actions. Associate policies to a role then assign it to an AWS resource
+
+### Anatomy of an IAM Policy
+
+- written in JSON, contain permissions which determine what API acctions are allowed/denied
+  - version: policy language version
+  - statement container: policy element, allowed to have multiples
+  - Sid: optional way of labeling statements
+  - Effect: whether policy will Allow or Deny
+  - Action: list of actions that the policy allows/denies
+  - Principal: account, user, role, or federated user to which you would like to allow/deny access
+  - Resource: which resource(s) to which the action(s) applies
+  - Condition: circumstances under which the policy grants permission
