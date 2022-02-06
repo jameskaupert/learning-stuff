@@ -140,3 +140,17 @@ MFA = security control where after you fill in your username/password, you have 
 Security Key = secondary device used as a second step in authentication process to gain access to a device, workstation, or app
 
 Can resemble a memory stick. You press a button/exposed metail, and the device generates and autofills a security token
+
+## AWS Identity and Access Management (IAM)
+
+- create and manage AWS users and groups, and use permissions to allow/deny their access to AWS resources
+
+IAM Policies = JSON documents which grant permissions for a specific user, group, or role to access services. Polices are attached to IAM identities
+
+IAM Permission = API actions that can or cannot be performed. Represented in an IAM Policy document
+
+IAM Users = end users to log into console or interact with AWS resources programmatically or via clicking UI interfaces
+
+IAM Groups = Group up your users so they all share permission levels
+
+IAM Roles = roles grant AWS resources permissions to specific AWS API actions. Associate policies to a role then assign it to an AWS resource
