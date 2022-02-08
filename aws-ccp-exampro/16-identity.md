@@ -209,3 +209,7 @@ Tasks only a root user can perform:
 - Edit/Delete S3 policy including an invalid VPC ID or VPC endpoint ID
 - Sign up for GovCloud
 - Create organizations
+
+## AWS Single Sign On
+
+- create or connect workforce identities in AWS once and manage access centrally across your AWS organization
