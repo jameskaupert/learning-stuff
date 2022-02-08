@@ -166,3 +166,16 @@ IAM Roles = roles grant AWS resources permissions to specific AWS API actions. A
   - Principal: account, user, role, or federated user to which you would like to allow/deny access
   - Resource: which resource(s) to which the action(s) applies
   - Condition: circumstances under which the policy grants permission
+
+## Principle of Least Privilege (PoLP)
+
+Principle of Least Privilege = computer security concept of providing a user, role, or application with the least amount of permissions to perform an operation or action
+
+Just-Enough-Access (JEA) = permitting only the exact actions for the identity to perform a task
+
+Just-In-Time (JIT) = permitting the smallest length of duration an identity can use permissions
+
+Risk-based Adaptive Policies = each attempt to access a resource generates a risk score of how likely the request is to be from a compromised source. Based on many factors such as device, location, IP address, the service being accessed and time of day
+
+- AWS does not have risk-based adaptive policies built into IAM (but Cognito does for user pools)
+- Netflix open source project ConsoleMe is a self-service short-lived IAM policy tool for AWS resource access while enforcing JEA and JIT
