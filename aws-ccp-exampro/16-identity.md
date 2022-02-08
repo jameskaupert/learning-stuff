@@ -179,3 +179,33 @@ Risk-based Adaptive Policies = each attempt to access a resource generates a ris
 
 - AWS does not have risk-based adaptive policies built into IAM (but Cognito does for user pools)
 - Netflix open source project ConsoleMe is a self-service short-lived IAM policy tool for AWS resource access while enforcing JEA and JIT
+
+## AWS Account Root User
+
+Root User = special user with full access
+
+- Created at time of AWS account creation
+- uses email/password to login
+- cannot be deleted
+- full permissions to account and its permissions, and cannot be limited
+- cannot use IAM policies to explicitly deny root user access to resources
+- you can only use SCPs to limit permissions of the root user
+- one root user per AWS account
+- for very specific/specialized tasks that are infrequently or rarely performed
+- strongly recommended to never use Root User access keys
+- strongly recommended to turn on MFA for root user
+
+Tasks only a root user can perform:
+
+- change account settings
+  - account name, email address, root user password, root user access keys
+- restore IAM user permissions for an IAM admin that revokes their own permissions
+- activate IAM access to Billing and Cost Management console
+- view certain tax invoices
+- close AWS account
+- cancel or change AWS Support Plan
+- register as seller in RI marketplace
+- enable MFA Delete on an S3 Bucket
+- Edit/Delete S3 policy including an invalid VPC ID or VPC endpoint ID
+- Sign up for GovCloud
+- Create organizations
