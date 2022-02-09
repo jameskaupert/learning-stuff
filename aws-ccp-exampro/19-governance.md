@@ -35,3 +35,16 @@ Guardrails
 
 - pre-packaged governance rules for security, operations, and compliance that customers can select and apply enterprise-wide or to specific groups of accounts
 - replacement for the now-retired AWS Landing Zones
+
+## AWS Config
+
+Change Management = formal process to monitor, enforce, and remediate changes
+
+Compliance as Code (CaC) = utilizing programming to automate the monitoring, enforcing, and remediation of changes to stay compliant with compliance programs or expected configuration
+
+AWS Config = compliance-as-code framework that allows changes to be managed in AWS accounts on a per region basis. Used for:
+
+- resources that need to stay configured a specific way for compliance
+- keeping track of configuration changes to resources
+- listing all resources within a region
+- analyzing potential security weaknesses and you need detailed historical info
