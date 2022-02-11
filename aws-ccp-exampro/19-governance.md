@@ -58,3 +58,17 @@ Composed of 3 parts:
 1. reference architecture for the deployment
 2. AWS Cloudformation templates that automate and configure the deployment
 3. A deployment guide explaining the architecture and implementation in detail
+
+## Tagging
+
+Tag = key and value pair you can assign to AWS resources to allow you to organize resources
+
+- resource management
+- cost management/optimization (cost tracking / budgets / alerts)
+- operations management (business commitments and SLA operations)
+- security (classification of data/security impact)
+- governance and regulatory compliance
+- automation
+- workload compliance
+
+Can be used with IAM policies to restrict access
