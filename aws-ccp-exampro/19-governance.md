@@ -48,3 +48,13 @@ AWS Config = compliance-as-code framework that allows changes to be managed in A
 - keeping track of configuration changes to resources
 - listing all resources within a region
 - analyzing potential security weaknesses and you need detailed historical info
+
+## AWS Quick Starts
+
+AWS Quick Starts are prebuilt templates by AWS and AWS Partners to help deploy a wide range of stacks
+
+Composed of 3 parts:
+
+1. reference architecture for the deployment
+2. AWS Cloudformation templates that automate and configure the deployment
+3. A deployment guide explaining the architecture and implementation in detail
