@@ -70,3 +70,41 @@ Log stream = sequence of events from an application or instance being monitored
 Log Event = single event in a log file. Seen within a Log Stream
 
 - can filter events based on simple or pattern matching syntax
+
+## Log Insights
+
+Log Insights enables you to interactively search and analyze CloudWatch log data
+
+- more robust filtering than simple filter events in a Log Stream
+- less burdonsome than having to export logs to S3 and analyze in Athena
+- Supports all types of logs
+- commonly used via the console to do ad-hoc queries against log groups
+- has its own language called CloudWatch Logs Insights Query Syntax
+- single request can query up to 20 log groups
+- Queries time out after 15 minutes, if they have not completed
+- Query results available for 7 days
+- create and save queries to make future repetitive tasks easier
+
+AWS provides sample queries to help get started and learn Query Syntax
+
+## CloudWatch Metrics
+
+CloudWatch Metric = time-ordered set of data points
+
+- variable that is monitored over time
+
+CloudWatch comes with many pre-defined metrics that are generally namespaced by their AWS Service
+
+EC2 Per-Instance Metrics
+
+- CPUUtilization
+- DiskReadOps
+- DiskWriteOps
+- DiskReadBytes
+- DiskWriteBytes
+- NetworkIn
+- NetworkOut
+- NetworkPacketsIn
+- NetworkPacketsOut
+
+Used by CloudWatch Alarms and CloudWatch Dashboards
