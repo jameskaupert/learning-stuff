@@ -48,3 +48,25 @@ When the alarm changes state, we can define what action it should trigger
 - notification
 - ASG
 - EC2 Action
+
+### Anatomy of an Alarm
+
+Threshold Condition = defines when a datapoint is breached
+
+Metric = the actual data being measured
+
+Period = how often to check/evaluate the alarm
+
+Data point = metric measurement at a given period
+
+Evaluation Periods = number of previous periods
+
+Datapoints to Alarm = criteria to alarm on (ie: 1 datapoint breach across 4 periods, etc...)
+
+## Log Streams
+
+Log stream = sequence of events from an application or instance being monitored
+
+Log Event = single event in a log file. Seen within a Log Stream
+
+- can filter events based on simple or pattern matching syntax
