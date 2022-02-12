@@ -72,3 +72,15 @@ Tag = key and value pair you can assign to AWS resources to allow you to organiz
 - workload compliance
 
 Can be used with IAM policies to restrict access
+
+## Resource Groups
+
+Resource Groups = collection of resources that share one or more tags
+
+- helps organize and consolidate information based on project and resources you use
+- can display details about a group of resources based on
+  - metrics
+  - alarms
+  - config settings
+
+You can change the settings of your groups at any time to change what resources appear
