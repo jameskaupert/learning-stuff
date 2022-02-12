@@ -84,3 +84,21 @@ Resource Groups = collection of resources that share one or more tags
   - config settings
 
 You can change the settings of your groups at any time to change what resources appear
+
+## Business Centric Services
+
+Amazon Connect = virtual call center service. Create workflow to route callers. Can record phone calls, manage a queue of callers.
+
+WorkSpaces = virtual remote desktop service. Secure managed service for provisioning Windows or Linux desktops
+
+WorkDocs = shared collaboration service. Centralized storage to share content and files. Similar to SharePoint
+
+Chime = video conference service, similar to Zoom or Skype. Can screenshare, have multiple people on the call. Secure by default and can show a calendar of upcoming calls
+
+WorkMail = managed business email, contacts, and calendar service. Similar to Gmail or Exchange
+
+Pinpoint = marketing campaign management service. Used for sending targeted email via SMS, push notifications, and voice messages. Perform A/B testing or create Journeys (complex email response workflows)
+
+Simple Email Service (SES) = transactional email service. Integrate into application to send emails. Create common templates, track open-rates, keep track of reputation
+
+QuickSight = Business Intelligence (BI) service. Connect multiple data sources and quickly visualize data in the form of graphs with minimal programming knowledge
