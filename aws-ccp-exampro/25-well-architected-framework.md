@@ -112,3 +112,10 @@ All pillars follow the same structure
 - Definition - overview of the best practice categories
 - Best Practices - detailed information about each best practice with AWS services
 - Resources - additional docs, whitepapers, and videos to implement the pillar
+
+### Operational Excellence
+
+Design Principles
+
+- perform operations as code
+  - Apply same engineering discipline you would to application code to your cloud infrastructure
