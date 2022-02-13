@@ -103,3 +103,12 @@ See more at https://www.amazon.jobs.en/principles
 4. Allow for evolutionary architectures - CI/CD, rapid/nightly releases, lambdas deprecating run-times forcing you to evolve
 5. Drive architectures using data - CloudWatch/CloudTrail automatically turned on for collecting data - use this!
 6. Improve through game days - simulate traffic on production or purposefully kill EC2 instances to test recovery
+
+## Pillar Anatomy
+
+All pillars follow the same structure
+
+- Design Principles - list of principles to consider during implementation
+- Definition - overview of the best practice categories
+- Best Practices - detailed information about each best practice with AWS services
+- Resources - additional docs, whitepapers, and videos to implement the pillar
