@@ -119,3 +119,14 @@ Design Principles
 
 - perform operations as code
   - Apply same engineering discipline you would to application code to your cloud infrastructure
+  - operations as code helps limit human error and enables consistent responses to events
+- make frequent, small, reversible changes
+  - design workloads to allow components to be updated regularly
+  - rollbacks, incremental changes, blue/green, CI/CD
+- refine operations procedures frequently
+  - look for continuous opportunities to improve your operations
+  - use game days to simulate traffic or event failure on your production workloads
+- anticipate failure
+  - perform post-mortems on system failures to better improve
+  - write test code
+  - kill production servers to test recovery
