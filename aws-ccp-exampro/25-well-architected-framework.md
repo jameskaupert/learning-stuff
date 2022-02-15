@@ -132,3 +132,24 @@ Design Principles
   - kill production servers to test recovery
 - learn from all operational failures
   - share lessons learned in a knowledge base for operational events and failures across your entire organization
+
+### Security
+
+Design Principles
+
+- implement a strong identity foundation
+  - Implement Principle of Least Privilege
+  - use centralized identity
+  - avoid long-lived credentials
+- Enable traceability
+  - monitor, alert, and audit actions and changes to your environment in real-time
+  - integrate log and metric collection
+  - automate investigation and remediation
+- apply security at all layers
+  - take defense in depth approach with multiple security controls for everything
+- automate security best practices
+- protect data in transit and at rest
+- keep people away from data
+- prepare for security events
+  - incident management systems and investigation policy and processes
+  - tools to detect, investigate, and recover
