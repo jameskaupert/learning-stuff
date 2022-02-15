@@ -130,3 +130,5 @@ Design Principles
   - perform post-mortems on system failures to better improve
   - write test code
   - kill production servers to test recovery
+- learn from all operational failures
+  - share lessons learned in a knowledge base for operational events and failures across your entire organization
