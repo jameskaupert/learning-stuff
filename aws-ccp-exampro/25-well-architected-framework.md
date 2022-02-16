@@ -153,3 +153,20 @@ Design Principles
 - prepare for security events
   - incident management systems and investigation policy and processes
   - tools to detect, investigate, and recover
+
+### Reliability
+
+Design Principles
+
+- Automatically recover from failure
+  - monitor KPIs and trigger automation when threshold breached
+- Test recovery procedures
+  - test how workload fails, and validate your recovery procedures
+  - use automation to simulate different failures or recreate failure scenarios from the past
+- Scale horizontally to increase aggregate system availability
+  - replace one large resource with multiple small resources to reduce the impact of a single failure on the overall workload
+  - distribute requests across multiple, smaller resources to ensure they don't share a common point of failure
+- Stop guessing capacity
+  - you don't need to guess because you can request the right size of resources, on-demand
+- manage change in automation
+  - make changes via IaC, allowing for a formal process to track and review infrastructure
