@@ -187,3 +187,22 @@ Design Principles
   - with virtual and automatable resources, you can quickly do comparative testing with different types of instances, storage, or configurations
 - consider mechanical sympathy
   - consider consumption patterns of cloud services and use tech approach best aligned with your workload goals. IE: consider data access patterns when selecting database or storage approaches
+
+### Cost Optimization
+
+Design Principles
+
+- Implement cloud Financial Management
+  - dedicate time and resources to build capability for Cloud Financial Management and Cost Optimization tooling
+- Adopt a consumption model
+  - pay only for the computing resources that you require and increase/decrease usage depending on business requirements
+- measure overall efficiency
+  - measure business output of the workload and the costs associated with delivering it
+  - use this measure to know the gains you make form increasing output and reducing costs
+- stop spending money on undifferentiated heavy lifting
+  - AWS does the heavy lifting of data center operations
+  - also removes the burden of managing OS and apps
+  - allows you to focus on customers and business projects rather than on IT infrastructure
+- analyze and attribute expenditure
+  - cloud makes it easier to identify usage and cost of system, which allows transparent attribution of IT costs to individual workload owners
+  - this helps measure ROI and gives workload owners an opportunity to optimize their resources and reduce costs
