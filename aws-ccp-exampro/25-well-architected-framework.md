@@ -170,3 +170,20 @@ Design Principles
   - you don't need to guess because you can request the right size of resources, on-demand
 - manage change in automation
   - make changes via IaC, allowing for a formal process to track and review infrastructure
+
+### Performance Efficiency
+
+Design Principles
+
+- Democratize Advanced Technologies
+  - focus on product development rather than procurement, provisioning, management
+  - take advantage of advanced technology specialized and optimized for your use-case with on-demand cloud services
+- go global in minutes
+  - deploying workload in multiple regions around the world allows you to provide lower latency and better experience for your customers at minimal cost
+- use serverless architectures
+  - removes the need to run and maintain physical servers for traditional compute activities
+  - removes operational burden of managing physical servers and can lower transactional costs because managed services operate at cloud scale
+- experiment more often
+  - with virtual and automatable resources, you can quickly do comparative testing with different types of instances, storage, or configurations
+- consider mechanical sympathy
+  - consider consumption patterns of cloud services and use tech approach best aligned with your workload goals. IE: consider data access patterns when selecting database or storage approaches
