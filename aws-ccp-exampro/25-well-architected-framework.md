@@ -206,3 +206,9 @@ Design Principles
 - analyze and attribute expenditure
   - cloud makes it easier to identify usage and cost of system, which allows transparent attribution of IT costs to individual workload owners
   - this helps measure ROI and gives workload owners an opportunity to optimize their resources and reduce costs
+
+### AWS Well-Architected Tool
+
+Auditing tool to be used to assess your cloud workloads for alignment with the AWS Well-Architected Framework
+
+Checklist, with nearby references to help you assemble a report to share with executives and key stakeholders
