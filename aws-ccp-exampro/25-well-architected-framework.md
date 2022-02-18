@@ -212,3 +212,9 @@ Design Principles
 Auditing tool to be used to assess your cloud workloads for alignment with the AWS Well-Architected Framework
 
 Checklist, with nearby references to help you assemble a report to share with executives and key stakeholders
+
+### Architecture Center
+
+Web portal containing best practices and reference architectures for a variety of workloads
+
+https://aws.amazon.com/architecture
