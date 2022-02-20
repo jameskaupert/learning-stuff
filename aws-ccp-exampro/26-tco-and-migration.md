@@ -37,3 +37,38 @@ OPEX (AWS)
 - training
 
 AWS claims up to 75% savings on TCO
+
+### CAPEX vs. OPEX
+
+CAPEX = Capital Expenditure. Spend money upfront on physical infrastructure, deducting that expense from your tax bill over time
+
+- server costs
+- storage costs
+- network costs
+- backup and archive costs
+- disaster recovery costs
+- datacenter costs
+- technical personnel
+
+With CAPEX, you have to guess upfront what you plan to spend
+
+OPEX = Operational Expenditure. Costs associated with an on-premises datacenter have been shifted to the service provider. Customer is only concerned with non-physical costs
+
+- leasing software and customizing features
+- training employees in cloud services
+- paying for Cloud Support
+- billing based on cloud metrics
+  - compute usage
+  - storage usage
+
+With OPEX, you can try a product or service without investing in equipment
+
+### Shifting IT Personnel
+
+Does Cloud make IT Personnel Redundant?
+
+- a company needs IT personnel during the migration phase
+- a company can transition some roles to new cloud roles
+  - networking to Cloud Networking
+- a company may decide to take a Hybrid approach, and will always need traditional IT and Cloud IT
+- a company can change employee activities from **Managing Infrastructure to Revenue Generating**
