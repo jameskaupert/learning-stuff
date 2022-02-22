@@ -72,3 +72,11 @@ Does Cloud make IT Personnel Redundant?
   - networking to Cloud Networking
 - a company may decide to take a Hybrid approach, and will always need traditional IT and Cloud IT
 - a company can change employee activities from **Managing Infrastructure to Revenue Generating**
+
+### AWS Pricing Calculator
+
+Free cost estimate tool used to estimate the cost of various AWS services. No account needed.
+
+- contains 100+ services to configure for cost estimates
+- need to compare existing cost against AWS costs for TCO, the calculator can help with that
+- export final estimate to CSV
