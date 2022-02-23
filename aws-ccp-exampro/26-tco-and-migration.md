@@ -80,3 +80,9 @@ Free cost estimate tool used to estimate the cost of various AWS services. No ac
 - contains 100+ services to configure for cost estimates
 - need to compare existing cost against AWS costs for TCO, the calculator can help with that
 - export final estimate to CSV
+
+## Migration Evaluator
+
+AWS Migration Evaluator (formerly known as TSO Logic) is an estimate tool used to determine an organization's existing on-premise cost so it can compare it against AWS costs for a planned cloud migration
+
+Migration Evaluator uses an Agentless Collector to collect data from your on-premise infrastructure to extract your on-premise cost
