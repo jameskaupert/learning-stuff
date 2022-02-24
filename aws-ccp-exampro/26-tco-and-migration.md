@@ -86,3 +86,21 @@ Free cost estimate tool used to estimate the cost of various AWS services. No ac
 AWS Migration Evaluator (formerly known as TSO Logic) is an estimate tool used to determine an organization's existing on-premise cost so it can compare it against AWS costs for a planned cloud migration
 
 Migration Evaluator uses an Agentless Collector to collect data from your on-premise infrastructure to extract your on-premise cost
+
+## EC2 VM Import/Export
+
+VM Import/Export allows users to import VM images into EC2
+
+AWS can import from:
+
+- VMWare
+- Citrix
+- Microsoft Hyper-V
+- Windows VHD from Azure
+- Linux VHD from Azure
+
+Process:
+
+1. Prepare Virtual Image for upload
+2. Upload Virtual Image to S3
+3. Use AWS CLI to import image, which generates an AMI you can use to launch an EC2
