@@ -104,3 +104,41 @@ Process:
 1. Prepare Virtual Image for upload
 2. Upload Virtual Image to S3
 3. Use AWS CLI to import image, which generates an AMI you can use to launch an EC2
+
+## Database Migration Service (DMS)
+
+Allows quick and secure migration of one database to another. Can be used for on-premise to AWS
+
+Possible Sources:
+
+- Oracle DB
+- Microsoft SQL
+- MySQL
+- MariaDB
+- PostgreSQL
+- MongoDB
+- SAP ASE
+- IMDB Db2
+- Azure SQL Database
+- Amazon RDS
+- Amazon S3 (database dumps)
+- Amazon Aurora
+
+Possible Targets:
+
+- Oracle DB
+- Microsoft SQL
+- MySQL
+- MariaDB
+- PostgreSQL
+- Redis
+- SAP ASE
+- Amazon RDS
+- Amazon DynamoDB
+- Amazon S3
+- Amazon Aurora
+- Amazon OpenSearch Service
+- Amazon ElastiCache for Redis
+- Amazon DocumentDB
+- Amazon Neptune
+- Apache Kafka
