@@ -142,3 +142,7 @@ Possible Targets:
 - Amazon DocumentDB
 - Amazon Neptune
 - Apache Kafka
+
+AWS Schema Conversion Tool is used in many causes to automatically convert a source DB schema to a target DB schema
+
+Each migration path requires research since not all combinations of sources and targets are possible
