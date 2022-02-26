@@ -146,3 +146,14 @@ Possible Targets:
 AWS Schema Conversion Tool is used in many causes to automatically convert a source DB schema to a target DB schema
 
 Each migration path requires research since not all combinations of sources and targets are possible
+
+## Cloud Adoption Framework
+
+Whitepaper to help plan migration from on-premise to AWS. Organized into 6 focus areas
+
+- business
+- people
+- governance
+- platform
+- security
+- operations
