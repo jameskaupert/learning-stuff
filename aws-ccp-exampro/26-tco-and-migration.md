@@ -157,3 +157,11 @@ Whitepaper to help plan migration from on-premise to AWS. Organized into 6 focus
 - platform
 - security
 - operations
+
+1. Business Perspective: for business managers, finance mangers, budget owners, and strategy stakeholders
+
+- how to update the staff skills and organizational processes to optimize business value as ops moves to the cloud
+
+2. People Perspective: Human Resources, People Managers
+
+- how to update the staff skills and organizational processes to optimize and maintain their workforce, and ensure competencies are in place at the appropriate time
