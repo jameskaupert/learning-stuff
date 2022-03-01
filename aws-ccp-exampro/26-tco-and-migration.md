@@ -165,3 +165,7 @@ Whitepaper to help plan migration from on-premise to AWS. Organized into 6 focus
 2. People Perspective: Human Resources, People Managers
 
 - how to update the staff skills and organizational processes to optimize and maintain their workforce, and ensure competencies are in place at the appropriate time
+
+3. Governance Perspective: CIO, Program Managers, Project Managers, Enterprise Architects, Business Analysts
+
+- how to update staff skills and organizational processes that are necessary to ensure business governance in the cloud, and manage and measure cloud investments to evaluate their business outcomes
