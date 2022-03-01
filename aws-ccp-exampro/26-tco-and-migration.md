@@ -169,3 +169,7 @@ Whitepaper to help plan migration from on-premise to AWS. Organized into 6 focus
 3. Governance Perspective: CIO, Program Managers, Project Managers, Enterprise Architects, Business Analysts
 
 - how to update staff skills and organizational processes that are necessary to ensure business governance in the cloud, and manage and measure cloud investments to evaluate their business outcomes
+
+4. Platform Perspective: CTO, IT Managers, Solutions Architects
+
+- how to update staff skills and organizations processes necessary to deliver and optimize cloud solutions and services
