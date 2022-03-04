@@ -177,3 +177,7 @@ Whitepaper to help plan migration from on-premise to AWS. Organized into 6 focus
 5. Security Perspective: CISO, IT Security Managers, IT Security Analysts
 
 - how to update the staff skills and organizational processes that are necessary to ensure architecture deployed in the cloud aligns to security control requirements, resiliency, and compliance requirements
+
+6. Operations Perspective: IT Operations Managers, IT Support Managers
+
+- how to update the staff skills and organizational processes that are necessary to ensure system health and reliability during the move of operations to the cloud, and then to operate using agile, ongoing, cloud computing best practices
