@@ -15,3 +15,5 @@ Free forever, unlike free-tier, which are up to a point of usage or time
 - CodeStar
 - Organizations and Consolidated Billing
 - AWS Cost Explorer
+
+although free, some of these services provision resources that are not.
