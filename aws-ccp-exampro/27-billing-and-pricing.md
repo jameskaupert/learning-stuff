@@ -17,3 +17,13 @@ Free forever, unlike free-tier, which are up to a point of usage or time
 - AWS Cost Explorer
 
 although free, some of these services provision resources that are not.
+
+## AWS Support Plans
+
+### Basic
+
+### Developer
+
+### Business
+
+### Enterprise
