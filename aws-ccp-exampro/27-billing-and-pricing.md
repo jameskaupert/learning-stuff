@@ -34,7 +34,7 @@ although free, some of these services provision resources that are not.
 - General Guidance - < 24hrs
 - System Impaired - < 12 hrs
 - 7 Trusted Advisor Checks
-- $29+/mo
+- $29+/mo (percentage based scaling too)
 
 ### Business
 
@@ -45,7 +45,7 @@ although free, some of these services provision resources that are not.
 - Production system impaired < 4hrs
 - Production system DOWN < 1hr
 - All Trusted Advisor Checks
-- $100+/mo
+- $100+/mo (percentage based scaling too)
 
 ### Enterprise
 
@@ -59,4 +59,4 @@ although free, some of these services provision resources that are not.
 - Personal Concierge
 - Technical Account Manager
 - All Trusted Advisor Checks
-- $15,000+/mo
+- $15,000+/mo (percentage based scaling too)
