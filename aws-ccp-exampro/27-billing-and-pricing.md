@@ -60,3 +60,7 @@ although free, some of these services provision resources that are not.
 - Technical Account Manager
 - All Trusted Advisor Checks
 - $15,000+/mo (percentage based scaling too)
+
+## Technical Account Manager (TAM)
+
+Provides proactive guidance and reactive support to help succeed with AWS journey
