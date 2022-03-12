@@ -64,3 +64,7 @@ although free, some of these services provision resources that are not.
 ## Technical Account Manager (TAM)
 
 Provides proactive guidance and reactive support to help succeed with AWS journey
+
+- builds solutions, provides technical guidance, and advocates for the customer
+- ensures AWS environments remain operationally healthy while reducing cost and complexity
+- develops trusting relationships with customers, understanding their business needs and technical challenges
