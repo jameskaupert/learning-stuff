@@ -72,3 +72,6 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 - collaborates with AWS solutions architects, business developers, professional services consultants, and sales account managers
 - proactively finds opportunities for customers to gain additional value from AWS
 - provides detailed reviews of service disruptions, metrics, detailed prelaunch planning
+- participates in Enterprise Support team with post-sales, consultative expertise
+- solves problems for different customers as they migrate their workloads to the cloud
+- uplifts customer capabilities by running workshops, etc...
