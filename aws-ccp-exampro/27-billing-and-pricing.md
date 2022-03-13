@@ -68,3 +68,7 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 - builds solutions, provides technical guidance, and advocates for the customer
 - ensures AWS environments remain operationally healthy while reducing cost and complexity
 - develops trusting relationships with customers, understanding their business needs and technical challenges
+- uses technical acument and customer obsession, drive technical discussions regarding incidents, trade-offs, and risk management
+- collaborates with AWS solutions architects, business developers, professional services consultants, and sales account managers
+- proactively finds opportunities for customers to gain additional value from AWS
+- provides detailed reviews of service disruptions, metrics, detailed prelaunch planning
