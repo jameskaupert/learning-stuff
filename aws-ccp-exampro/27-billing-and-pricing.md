@@ -75,3 +75,4 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 - participates in Enterprise Support team with post-sales, consultative expertise
 - solves problems for different customers as they migrate their workloads to the cloud
 - uplifts customer capabilities by running workshops, etc...
+- follows Amazon Leadership Principles, especially being Customer Obsessed
