@@ -76,3 +76,9 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 - solves problems for different customers as they migrate their workloads to the cloud
 - uplifts customer capabilities by running workshops, etc...
 - follows Amazon Leadership Principles, especially being Customer Obsessed
+
+## Support Center
+
+1. Go to Support Center
+2. Fill out a ticket
+3. Response time depends on tier
