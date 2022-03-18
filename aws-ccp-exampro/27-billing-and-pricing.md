@@ -85,7 +85,7 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 
 ## AWS Marketplace
 
-Digital catlog of software listings from independent software vendors
+Digital catalog of software listings from independent software vendors
 
 Find, buy, test, deploy software that already runs on AWS
 
