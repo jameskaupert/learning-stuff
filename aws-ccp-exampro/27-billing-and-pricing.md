@@ -82,3 +82,21 @@ Provides proactive guidance and reactive support to help succeed with AWS journe
 1. Go to Support Center
 2. Fill out a ticket
 3. Response time depends on tier
+
+## AWS Marketplace
+
+Digital catlog of software listings from independent software vendors
+
+Find, buy, test, deploy software that already runs on AWS
+
+Can be free to use or have associated charges. Charge becomes part of your AWS bill. You pay the Marketplace, they pay the provider.
+
+You can also sell your solutions to other AWS customers (for ISVs and Consulting Partners)
+
+Products can be:
+
+- AMIs
+- CloudFormation templates
+- SaaS offerings
+- Web ACL
+- AWS WAF Rules
