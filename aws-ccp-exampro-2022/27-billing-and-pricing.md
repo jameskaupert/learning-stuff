@@ -100,3 +100,10 @@ Products can be:
 - SaaS offerings
 - Web ACL
 - AWS WAF Rules
+
+## Consolidated Billing
+
+- lets you pay for multiple AWS accounts with one bill
+- designate master account that pays charges for other member accounts
+- offered at no additional cost
+- use cost explorer to visualize usage
