@@ -107,3 +107,5 @@ Products can be:
 - designate master account that pays charges for other member accounts
 - offered at no additional cost
 - use cost explorer to visualize usage
+
+Can combine usage across all acounts in organization to share volume pricing discounts
